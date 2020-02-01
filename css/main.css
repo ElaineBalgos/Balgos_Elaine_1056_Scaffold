@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background: #646464;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+}
+
+.hidden {
+	display: none;
+}
+
+#siteContainer {
+  background: #fff;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 920px;
+  padding: 30px 20px 10px 20px;
+	display: flex;
+  flex-flow: wrap;
+}
+
+span {
+	margin: 0;
+  color: #fff;
+}
+
+#headerLogo {
+  background: #646464;
+  width: 200px;
+  text-align: center;
+  line-height: 65px;
+}
+
+#headerNav {
+  background: #646464;
+  width: 500px;
+  height: 50px;
+  margin: 25px 0px 25px 220px;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* OPEN INDEX */
+#mainContent {
+  background: #646464;
+  margin: 0px 20px 10px 20px;
+  width: 920px;
+  height: 230px;
+  text-align: center;
+  line-height: 230px;
+}
+
+#subContentCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 920px;
+  padding: 30px 20px 20px 20px;
+}
+
+#subCon {
+  background: #646464;
+  padding: 80px 100px 80px 100px;
+  line-height: 90px;
+  width: 100px;
+}
+
+#featured {
+  background: #646464;
+  margin: 40px 20px 0px 20px;
+  width: 920px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+#imageCon {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px 0px 10px;
+  width: 940px;
+}
+
+#subImage {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #646464;
+  text-align: center;
+  padding: 50px 70px 50px 123px;
+  line-height: 90px;
+  margin: -5px 10px -15px 10px;
+}
+
+#latestUpate {
+  background: #646464;
+  margin: 10px 20px 0px 20px;
+  width: 920px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.footer {
+  width: 920px;
+  padding: 30px 20px 30px 20px;
+	display: flex;
+  flex-flow: wrap;
+}
+
+#footerLogo {
+  background: #646464;
+  width: 200px;
+  text-align: center;
+  line-height: 65px;
+}
+
+#footerNav {
+  background: #646464;
+  width: 500px;
+  height: 50px;
+  margin: 25px 220px 25px 0px;
+  text-align: center;
+  line-height: 20px;
+}
+/* CLOSE INDEX */
+
+/* OPEN GALLERY */
+#mainText {
+  background: #646464;
+  margin: 0px 20px 10px 20px;
+  width: 920px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+#imageConGallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px 0px 10px;
+  width: 940px;
+}
+
+#subImageGallery {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #646464;
+  text-align: center;
+  padding: 125px 70px 105px 123px;
+  line-height: 90px;
+  margin: 0px 10px -15px 10px;
+}
